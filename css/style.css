@@ -1,0 +1,655 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    height: 4000px;
+    margin: 0;
+    width: 100%;
+}
+body #up{
+position: fixed;
+bottom: 10px;
+right: 10px;
+display: none;
+
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+header .slider {
+    background-color: #EEE;
+    min-height: 600px;
+    background-image: url('../img/IMG_8225-1.jpg');
+    -webkit-background-size: cover;
+    /*css3*/
+    -moz-background-size: cover;
+    /*css3*/
+    -o-background-size: cover;
+    /*css3*/
+    background-size: cover;
+    /*css3*/
+}
+
+header .slider .intro {
+    margin: 0;
+    height: 600px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 200px
+}
+
+
+header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    padding: 5px 0;
+}
+
+header .slider .intro button {
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #FFF;
+    font-weight: bold;
+    color: #FFF;
+    padding: 10px 30px;
+}
+header .slider .intro button:hover{
+  background-color: #f3ecec;
+  color: black;
+}
+
+header nav {
+    background-color: black;
+    color: #FFF;
+    overflow: hidden;
+}
+
+header nav h2 {
+    float: left;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+header nav span {
+    color: green;
+}
+
+header nav ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    padding: 10px
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: #768f17;
+    cursor: pointer;
+}
+
+header nav ul li a.active {
+    color: #768f17;
+}
+
+
+/* start Features */
+
+.Features {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.Features .feat {
+    float: left;
+    width: 33.3333%;
+    min-height: 150px;
+}
+
+.Features .feat h2 {
+    text-transform: uppercase;
+    color: #444;
+}
+
+.Features .feat p {
+    line-height: 1.6;
+    color: #D1D1D1;
+    padding: 0 20px 0 0;
+    text-indent: 10px;
+}
+
+
+/* end Features */
+
+
+/* start About Me */
+
+.about-me {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.about-me .image {
+    float: left;
+    width: 40%;
+}
+
+.about-me .image img {
+    width: 100%;
+}
+
+.about-me .info {
+    float: left;
+    width: 60%;
+}
+
+.about-me .info h2 {
+    margin: 25px 0 20px 40px;
+    color: #555;
+}
+
+.about-me .info>p {
+    margin: 0 0 10px 40px;
+}
+
+.about-me .info>p:last-of-type {
+    margin-top: 25px;
+}
+
+.about-me .info p {
+    line-height: 1.7;
+    color: #666;
+}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 15px 0 0 40px;
+}
+
+.about-me .info .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.about-me .info .hobbies .content h3 {
+    color: #555;
+}
+
+.about-me .info .hobbies .content .icon {
+    width: 12%;
+    float: left;
+    margin-right: 5%;
+}
+
+.about-me .info .hobbies .content .icon img {
+    max-width: 100%;
+    margin: 40px 10px 0 0;
+}
+
+.about-me .info .hobbies .content .text {
+    float: left;
+    width: 83%;
+}
+
+.about-me .info .hobbies .content .text p {
+    margin-top: 0
+}
+
+
+/* end About Me */
+
+
+/* start skils */
+
+.my-skills {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.my-skills .skills,
+.my-skills .progress {
+    width: 50%;
+    float: left;
+}
+
+.my-skills .skills h2 {
+    margin: 25px 0 20px 40px;
+    color: #555;
+}
+
+.my-skills .skills p {
+    margin: 0 0 10px 40px;
+    color: #999;
+}
+
+.my-skills .skills p:last-of-type {
+    margin-top: 25px;
+}
+
+.my-skills .skills button {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.my-skills .progress .technique {
+    margin-left: 50px;
+}
+
+.my-skills .progress .technique h3 {}
+
+.my-skills .progress .technique div {
+    background-color: #f2f2f2;
+    height: 25px;
+}
+
+.my-skills .progress .technique div span {
+    background-color: #2dcc78;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+/* end skils */
+
+
+/*start resume */
+
+.resume {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.resume h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+}
+.resume p{
+  color: #999;
+}
+
+.resume button {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+/*end resume */
+
+
+/* start Education */
+
+.my-education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-education .main {
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+.my-education .main h2 {
+    margin: 25px 0 20px 40px;
+    color: #555;
+}
+
+.my-education .main p {
+    margin: 0 0 10px 40px;
+    color: #999;
+}
+
+.my-education .main p:last-of-type {
+    margin-top: 25px;
+}
+
+.my-education .exp {
+    width: 45%;
+    float: left;
+}
+.my-education .exp h3{
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+.my-education .exp span{
+  display: block;
+  margin-bottom: 10px;
+}
+.my-education .exp span:first-of-type{color: #999;}
+.my-education .exp span:nth-child(3){
+  background-color:#2DC778;
+  color: #fff;
+  display: inline-block;
+  padding:4px 10px;
+}
+.my-education .exp hr{
+  margin: 20px 0;
+  background-color: #999;
+  height: 2px;
+  border: 0;
+}
+.my-education .exp p{
+  line-height: 1.7;
+  color: #777;
+}
+/* end skils */
+
+
+/*start testimonials */
+
+.testimonials {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.testimonials blockquote{
+  color:#888;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  font: italic bold 18px/1.8 Arial;
+  line-height: 1.8
+}
+.testimonials h3{
+  color: #777;
+  margin-bottom: 30px;
+}
+.testimonials ul{
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+
+}
+.testimonials ul li{
+  width: 15px;
+  height: 15px;
+  border: 2px solid #2dcc78;
+  display: inline-block;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.testimonials ul li.active{
+  background-color: #2dcc78;
+}
+.testimonials ul li:hover{
+  background-color: #2dcc78;
+}
+
+
+
+/*end resume */
+
+
+/*start Portfolio */
+
+.Portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.Portfolio p{
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 30px;
+}
+.Portfolio .our-work {
+    overflow: hidden;
+}
+
+.Portfolio .our-work>div {
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 10px;
+}
+
+.Portfolio .our-work > div img {
+    width: 92%;
+    height: 400px
+    margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+
+/*end Portfolio */
+
+
+/*start contact */
+
+.contact {
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.contact h2 {color: white;}
+
+.contact  p {
+  color: grey;
+  margin-right: 40px;
+  line-height: 1.7;
+}
+.contact p strong{color:#D1D1D1;}
+
+.contact .info {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+.contact .form{
+  width: 45%;
+  float: left;
+}
+.contact .form label{
+  color:#D1D1D1;
+  display: block;
+  margin: 10px 0;
+}
+.contact .form input[type="text"]{
+  background-color: #485557;
+  color: #FFF;
+  padding: 10px;
+  border: 0;
+  width: 90%;
+  margin-bottom: 10px:
+
+}
+.contact .form textarea{
+  background-color: #485557;
+  color: #FFF;
+  padding: 10px;
+  border: 0;
+  width: 90%;
+  margin-bottom: 10px:
+  height:300px;
+}
+.contact .form input[type="submit"]{
+  background-color:#191E22;
+  color: #FFF;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 10px;
+
+
+
+}
+
+/*end contact */
+
+
+/*start footer */
+
+.footer {
+    text-align: center;
+    background-color: #191E22;
+    color: #GAGE73;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.footer span{
+  float: left;
+}
+.footer  ul{
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.footer  ul li{
+  display: inline-block;
+}
+.footer  ul li img{
+  width: 24px;
+}
+.footer  ul li i{
+  color: #3b5998;
+background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+background-size: 55%;
+background-position: 70% 0;
+background-repeat: no-repeat;
+font-size: 32px;
+}
+/*end footer */
+
+
+/* start Framwork */
+
+.my-button {
+    padding: 10px 20px;
+    background: none;
+    border: 3px solid #2dcc78;
+    color: #2dcc78;
+    font-weight: bold;
+}
+
+
+/* end Framwork */
+
+
+
+@media (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+  }
+
+nav a:not(:first-child) {display: none;}
+ nav a.icon {
+   float: right;
+   display: block;
+ }
+
+  .container {
+    width: 100%
+  }
+  .Features{
+        margin-left: 11px;
+  }
+  .about-me .image {
+    float: left;
+    width: 100%;
+    overflow-y: hidden;
+    background-size: cover;
+  }
+  .my-skills .skills, .my-skills .progress {
+    width: 100%;
+    float: left;
+}
+.my-skills .progress .technique {
+    margin-left: 14px;
+    width: 95%;
+    border-radius: 6px;
+}
+.about-me .info {
+    float: left;
+    width: 100%;
+}
+.about-me .info .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.Portfolio .our-work>div {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact .info {
+    width: 100%;
+    float: left;
+    margin-right: 7%;
+    padding: 0 0 0 12px;
+}
+.contact .form {
+    width: 100%;
+    float: left;
+    background-color: #252f31;
+    padding-left: 14px;
+}
+.footer {
+    text-align: center;
+    background-color: #191E22;
+    color: #GAGE73;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.footer span {
+    right: 50%;
+    text-align: center;
+    position: absolute;
+}
+.footer ul {
+    /* float: right; */
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    position: absolute;
+    right: 24px;
+}
+.footer ul li img {
+    width: 24px;
+}
+.footer ul li img:hover{
+  background-color: #191e22;
+  color: #191e22;
+}
+
+}
